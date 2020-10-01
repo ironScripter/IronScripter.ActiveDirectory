@@ -144,7 +144,7 @@
     Get-ADUserTrusted -Identity <user> -Properties * | Get-Member
 #>
 function Get-ADUserTrusted {
-    [CmdletBinding(HelpUri = 'https://github.com/ironScripter/')]
+    [CmdletBinding(HelpUri = 'hhttps://github.com/ironScripter/IronScripter.ActiveDirectory')]
     param (
         [Parameter(
             Mandatory=$true,
@@ -386,7 +386,7 @@ function Get-ADUserTrusted {
 #>
 function Get-ADComputerTrusted {
 
-    [CmdletBinding()]
+    [CmdletBinding(HelpUri = 'hhttps://github.com/ironScripter/IronScripter.ActiveDirectory')]
     param (
         [Parameter(Mandatory=$true,ParameterSetName='Identity')]
         [string]
